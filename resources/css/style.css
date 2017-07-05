@@ -1,0 +1,32 @@
+/*  Sitewide Selectors  */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .mobile {
+    display: none;
+  }
+}
